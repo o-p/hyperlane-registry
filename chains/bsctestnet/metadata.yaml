@@ -15,7 +15,6 @@ deployer:
 displayName: BSC Testnet
 domainId: 97
 gasCurrencyCoinGeckoId: binancecoin
-isTestnet: true
 name: bsctestnet
 nativeToken:
   decimals: 18
