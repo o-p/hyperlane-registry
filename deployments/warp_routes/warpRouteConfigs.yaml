@@ -169,6 +169,24 @@ BNB/bsc-zeronetwork:
       name: BNB
       standard: EvmHypSynthetic
       symbol: BNB
+BNB/zytron:
+  tokens:
+    - addressOrDenom: "0xEEb88cc9ef20A420c4394Df9E0c2FfbC2e29B96C"
+      chainName: zytron
+      connections:
+        - token: ethereum|bsctestnet|0xEEb88cc9ef20A420c4394Df9E0c2FfbC2e29B96C
+      decimals: 18
+      name: BNB
+      standard: EvmHypSynthetic
+      symbol: BNB
+    - addressOrDenom: "0xEEb88cc9ef20A420c4394Df9E0c2FfbC2e29B96C"
+      chainName: bsctestnet
+      connections:
+        - token: ethereum|zytron|0xEEb88cc9ef20A420c4394Df9E0c2FfbC2e29B96C
+      decimals: 18
+      name: BNB
+      standard: EvmHypNative
+      symbol: BNB
 BRETT/base-zeronetwork:
   tokens:
     - addressOrDenom: "0x9Fe693789E93319cc0F8A00FB4597Ea4fD4b08cA"
